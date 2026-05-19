@@ -46,7 +46,7 @@ You can install them from:
 
 Adafruit_SSD1306 oled(128, 64, &Wire, -1);
 
-int playerY = 20;
+int playerY = 10;
 
 const int playerX = 10;
 const int playerW = 6;
