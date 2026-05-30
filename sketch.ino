@@ -27,12 +27,9 @@ void setup() {
   // Generate a random seed from an unconnected analog pin for truly random walls
   randomSeed(analogRead(0));
 
-  // Initialize the OLED. It's good practice to check if it succeeds.
-  if(!oled.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-    for(;;); // Loop forever if OLED allocation fails
-  }
-  
+  oled.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   pinMode(jumpBtn, INPUT_PULLUP);
+  
   isGameOver = false;
 }
 
