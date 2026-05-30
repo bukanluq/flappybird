@@ -1,3 +1,8 @@
+Slide Show: https://docs.google.com/presentation/d/1ZeN5EIHg4GbrQnU4ulExGstJnQjHDfnnP_rsh1DP4TA/edit?usp=sharing
+
+https://docs.google.com/presentation/d/1ZeN5EIHg4GbrQnU4ulExGstJnQjHDfnnP_rsh1DP4TA/edit?usp=sharing
+
+
 # Arduino OLED Player Example
 
 A simple Arduino project using an OLED display with the `Adafruit_SSD1306` library.  
